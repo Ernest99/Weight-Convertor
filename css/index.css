@@ -9,7 +9,7 @@
 :root {
     --primary: #4169e1;
     --secondary: #ffffff;
-    --black: #000000;
+    --black: #121212;
 }
 
 body {
@@ -71,5 +71,5 @@ button i {
 }
 
 .bg {
-    background: linear-gradient(var(--black) 50%, var(--secondary) 50%);
+    background: linear-gradient(var(--black) 50%, var(--black) 50%);
 }
