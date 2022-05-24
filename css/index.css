@@ -64,6 +64,8 @@ button {
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    display: grid;
+    place-items: center;
 }
 
 button i {
