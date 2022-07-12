@@ -9,7 +9,7 @@
 :root {
     --primary: #4169e1;
     --secondary: #ffffff;
-    --black: #121212;
+    --black: #020101;
 }
 
 body {
@@ -70,8 +70,15 @@ button {
 
 button i {
     font-size: 20px;
+    transition: .3s;
 }
 
 .bg {
     background: linear-gradient(var(--black) 50%, var(--black) 50%);
+    transition: .3s;
+}
+
+.ri-sun-fill {
+    transform: rotate(360deg);
+    transition: .3s;
 }
